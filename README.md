@@ -10,7 +10,7 @@
 
 ### 下面介绍一些重点的代码
 #### 验证码
-验证码这里采用了patchca插件，详细代码如下：
+验证码这里采用了![patchca](https://github.com/pusuo/patchca)插件，详细代码如下：
 ```java
 //获取验证码图片时后台操作，这里的getSession实际上都是根据前台传来的session_id去redis找出缓存的session对象
 Map<String, Object> session = getSession();
